@@ -1,0 +1,27 @@
+1. 
+есть таакой подвал:
+<footer class="footer">
+    <div class="container">
+        <p class="copy-text">© 2021 Brand All Rights Reserved.</p>
+        <nav class="social">
+          <a href="#" class="soc-link"></a>
+          <a href="#" class="soc-link"></a>
+          <a href="#" class="soc-link"></a>
+        </nav>
+    </div>
+</footer>
+блоку container, который отвечает за центрирование, можно ли задавать другие свойства расположения элементов внутри? или для этого правильнее создать еще один div, которому уже прописывать block: flex, justify-content и прочее?
+
+2. при семантической разметке все равно же можно оставлять divы ?
+
+
+
+
+
+
+
+
+
+
+
+

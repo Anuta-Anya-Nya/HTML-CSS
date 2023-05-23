@@ -8,7 +8,7 @@ a {
   line-height: 20px;
 }
 
-.main-header {
+.title {
   color: #222222;
   font-size: 28px;
   line-height: 36px;
@@ -21,7 +21,7 @@ a {
   line-height: 30px;
   color: #7d7987;
 }
-.header-smaller {
+.heading {
   color: coral;
   font-style: normal;
   font-weight: 700;
