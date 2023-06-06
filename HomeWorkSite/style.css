@@ -24,7 +24,7 @@
     url("fonts/gilroy-medium.woff") format("woff");
 }
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 .top {
