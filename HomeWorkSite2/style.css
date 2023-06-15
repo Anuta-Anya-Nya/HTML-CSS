@@ -185,8 +185,6 @@ img {
 
 .accesories {
   grid-column: span 3;
-  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-    url(img/offers-acces.png) no-repeat center center;
 }
 
 .products {
@@ -324,5 +322,8 @@ img {
   .products-box {
     gap: 16px;
     padding: 0 16px;
+  }
+  .products-text {
+    margin-bottom: 73px;
   }
 }
