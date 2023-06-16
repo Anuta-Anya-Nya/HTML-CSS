@@ -211,7 +211,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  margin-bottom: 48px;
+  margin-bottom: 62px;
 }
 .product-item {
   position: relative;
@@ -320,9 +320,13 @@ img {
     margin-bottom: 110px;
     padding: 0 16px;
   }
+  .products {
+    margin-bottom: 84px;
+  }
   .products-box {
     gap: 16px;
     padding: 0 16px;
+    margin-bottom: 47px;
   }
   .products-text {
     margin-bottom: 73px;
@@ -367,10 +371,14 @@ img {
   .accesories > img {
     display: none;
   }
+  .products {
+    margin-bottom: 99px;
+  }
   .products-text {
     margin-bottom: 65px;
   }
   .products-box {
     padding: 0 8px;
+    margin-bottom: 54px;
   }
 }
