@@ -55,7 +55,6 @@ img {
 }
 .drop-menu-box {
   position: absolute;
-  height: 764px;
   background-color: #ffffff;
   padding: 37px 34px 34px 34px;
   /* если прижать к правому краю: */
@@ -165,9 +164,17 @@ img {
 }
 .offer-img {
   filter: brightness(0.4);
+  transition: all 0.3s;
+}
+.offers-link:hover .offer-img {
+  transform: scale(1.1);
+}
+.offers-link:hover .offer-text {
+  transform: scale(1.1);
 }
 .offer-text {
   position: absolute;
+  transition: all 0.3s;
 }
 .offer {
   font-size: 16px;
@@ -229,6 +236,7 @@ img {
 .product-image {
   width: 100%;
   vertical-align: middle;
+  transition: all 0.3s;
 }
 .product-desc {
   background: #f8f8f8;
@@ -293,6 +301,7 @@ img {
   text-decoration: none;
   padding: 14px 38px;
   background-color: #ffffff;
+  transition: all 0.3s;
 }
 
 .product-but:hover {
@@ -461,6 +470,7 @@ img {
   height: 32px;
   position: relative;
   text-align: center;
+  transition: all 0.3s;
 }
 
 .soc-icon {
@@ -470,6 +480,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: all 0.3s;
 }
 
 .soc-link:hover {
@@ -549,6 +560,9 @@ img {
   }
   .hidden-item {
     display: none;
+  }
+  .drop-menu-box {
+    right: 0;
   }
   .banner {
     min-height: 363px;
