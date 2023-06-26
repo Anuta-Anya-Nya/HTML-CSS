@@ -1,0 +1,38 @@
+@import 'vars';
+@import 'mixins';
+@import 'extender';
+
+
+.impText{
+    color: $colorSite;
+}
+
+// комментарий
+
+.container {
+    width: $widthSite;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    gap: $gapNav;
+
+    &__link{
+        text-decoration: none;
+        @extend .standartText;
+    }
+}
+
+.content{
+    @include flexMix;
+    gap: $gapNav;
+
+    &__item{
+        width: calc(($widthSite - 3 * $gapNav) / 4);
+        height: 200px;
+        border: $border;
+        box-sizing: border-box;
+    }
+}
+
+

@@ -1,0 +1,8 @@
+// Примесь (как функция) бывает с параметром и вызывается @include flexMix
+
+@mixin flexMix{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
