@@ -33,12 +33,40 @@ summary::-webkit-details-marker {
   padding-right: calc(50% - 570px);
 }
 
+.box-content {
+  overflow: hidden;
+}
+
+.menu-on-click {
+  background: #FFF;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  width: 232px;
+  padding: 32px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  transition: right 0.3s;
+}
+
+#burger {
+  position: absolute;
+  left: -99999px;
+  visibility: hidden;
+}
+
+#burger:checked ~ .menu-on-click {
+  right: -232px;
+}
+
 .header {
   background: #222;
+  position: relative;
 }
 .header__menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu-left {
@@ -55,12 +83,6 @@ summary::-webkit-details-marker {
 .menu-link-search {
   display: block;
   padding: 28px 20px 20px 20px;
-}
-
-.menu-right {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
 }
 
 .menu-link {
@@ -467,11 +489,11 @@ summary::-webkit-details-marker {
   box-sizing: border-box;
   padding: 7px 22px;
   background-color: #e1e1e1;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
   border: none;
   font-size: 14px;
-  line-height: 36px;
+  line-height: 17px;
   opacity: 0.67;
   flex-grow: 2;
 }
@@ -480,12 +502,12 @@ summary::-webkit-details-marker {
   box-sizing: border-box;
   background: #f16d7f;
   font-size: 14px;
-  line-height: 36px;
+  line-height: 17px;
   text-align: center;
   color: #ffffff;
   border: none;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
   padding: 7px;
   flex-grow: 1;
 }
@@ -550,8 +572,6 @@ summary::-webkit-details-marker {
 .page-title__value {
   color: #F16D7F;
   font-size: 24px;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .breadCrumb {
@@ -698,7 +718,7 @@ summary::-webkit-details-marker {
   margin: 0 auto;
   justify-content: center;
   box-sizing: border-box;
-  width: 212px;
+  width: 211px;
   padding: 14px 56px 14px 23px;
 }
 .prod-choose .bag-svg {
@@ -830,43 +850,6 @@ summary::-webkit-details-marker {
   font-size: 14px;
   line-height: 16px;
   font-family: Roboto;
-}
-
-.pagination {
-  display: flex;
-}
-.pagination__box {
-  border: 1px solid #EBEBEB;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 17px;
-  margin: 0 auto;
-  padding: 12px 15px;
-}
-.pagination__link {
-  text-decoration: none;
-  color: #C4C4C4;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: normal;
-}
-.pagination .active-link {
-  color: #F16D7F;
-}
-.pagination__link:hover {
-  color: #F16D7F;
-}
-.pagination__link-icon:hover path {
-  fill: #F16D7F;
-}
-
-.catalog-margin {
-  margin-bottom: 48px;
-}
-
-.catalog-margin-paginat {
-  margin-bottom: 96px;
 }
 
 @media (max-width: 1024px) {
