@@ -869,6 +869,27 @@ summary::-webkit-details-marker {
   margin-bottom: 96px;
 }
 
+.cart {
+  margin-top: 96px;
+  margin-bottom: 128px;
+}
+.cart__box {
+  display: flex;
+  justify-content: space-between;
+}
+.cart__product-item {
+  display: flex;
+  margin-bottom: 40px;
+  box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+}
+.cart__product-img {
+  width: auto;
+}
+.cart__order-form {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 1024px) {
   .header__menu {
     padding-left: 32px;

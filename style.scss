@@ -946,6 +946,33 @@ summary::-webkit-details-marker {
   margin-bottom: 96px;
 }
 
+// корзина
+.cart {
+  margin-top: 96px;
+  margin-bottom: 128px;
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__product-item {
+    display: flex;
+    margin-bottom: 40px;
+    box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+  }
+
+  &__product-img {
+    width: auto;
+  }
+
+
+
+  &__order-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 
 

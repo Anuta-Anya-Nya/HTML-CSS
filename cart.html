@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4edf1f583e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__menu">
+          <ul class="menu-left">
+            <li class="menu-item">
+              <a href="index.html" class="menu-link-logo"
+                ><img class="menu-icon" src="img/menu-logo.svg" alt="logo"
+              /></a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link-search"
+                ><img class="menu-icon" src="img/menu-search.svg" alt="search"
+              /></a>
+            </li>
+          </ul>
+          <ul class="menu-right">
+            <li class="menu-item menu-drop">
+              <a href="#" class="menu-link sandwich">
+                <img class="menu-icon" src="img/menu-sandwich.svg" alt="menu"
+              /></a>
+              <nav class="drop-menu-box">
+                <h4 class="drop-menu-head">MENU</h4>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">MAN</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Bags</a>
+                  <a href="" class="drop-menu-link">Denim</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                </div>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">WOMAN</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Jackets & Coats</a>
+                  <a href="" class="drop-menu-link">Polos</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                  <a href="" class="drop-menu-link">Shirts</a>
+                </div>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">KIDS</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Jackets & Coats</a>
+                  <a href="" class="drop-menu-link">Polos</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                  <a href="" class="drop-menu-link">Shirts</a>
+                  <a href="" class="drop-menu-link">Bags</a>
+                </div>
+              </nav>
+            </li>
+            <li class="menu-item hidden-item">
+              <a href="#" class="menu-link"
+                ><img class="menu-icon" src="img/menu-man.svg" alt="person"
+              /></a>
+            </li>
+            <li class="menu-item hidden-item">
+              <a href="#" class="menu-link icon-bag"
+                ><img class="menu-icon" src="img/menu-bag.svg" alt="bag"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-title">
+      <div class="page-title__box center">
+        <h2 class="page-title__value">SHOPPING CART</h2>
+      </div>
+    </section>
+
+    <section class="cart">
+      <div class="cart__box center">
+        <div class="cart__product-box">
+          <div class="cart__product-item">
+            <img
+              src="img/cart-prod1.jpg"
+              alt="product"
+              class="cart__product-img"
+            />
+            <div class="cart__product-about">
+              <h3 class="cart__product-title">MANGO PEOPLE T-SHIRT</h3>
+              <p class="cart__product-feature">
+                Price:<span class="cart__price">$300</span>
+              </p>
+              <p class="cart__product-feature">
+                Color:<span class="cart__feature-color">Red</span>
+              </p>
+              <p class="cart__product-feature">
+                Size:<span class="cart__feature-color">XL</span>
+              </p>
+              <p class="cart__product-feature">
+                <label for="quantity">Quantity:</label>
+                <input
+                  type="number"
+                  name="quantity"
+                  id="quantity"
+                  min="1"
+                  placeholder="2"
+                />
+              </p>
+            </div>
+          </div>
+          <div class="cart__product-item">
+            <img
+              src="img/cart-prod2.jpg"
+              alt="product"
+              class="cart__product-img"
+            />
+            <div class="cart__product-about">
+              <h3 class="cart__product-title">MANGO PEOPLE T-SHIRT</h3>
+              <p class="cart__product-feature">
+                Price:<span class="cart__price">$300</span>
+              </p>
+              <p class="cart__product-feature">
+                Color:<span class="cart__feature-color">Red</span>
+              </p>
+              <p class="cart__product-feature">
+                Size:<span class="cart__feature-color">XL</span>
+              </p>
+              <p class="cart__product-feature">
+                <label for="quantity">Quantity:</label>
+                <input
+                  type="number"
+                  name="quantity"
+                  id="quantity"
+                  min="1"
+                  placeholder="2"
+                />
+              </p>
+            </div>
+          </div>
+          <div class="cart__buttons">
+            <a href="#" class="product-but">CLEAR SHOPPING CART</a>
+            <a href="#" class="product-but">CONTINUE SHOPPING</a>
+          </div>
+        </div>
+
+        <div class="cart__form">
+          <form action="#" class="cart__order-form">
+            <h3 class="cart__form-title">SHIPPING ADRESS</h3>
+            <input
+              type="text"
+              name="country"
+              id="country"
+              placeholder="Bangladesh"
+            />
+            <input type="text" name="state" id="state" placeholder="State" />
+            <input
+              type="text"
+              name="postcode"
+              id="postcode"
+              placeholder="Postcode / Zip"
+            />
+            <input
+              class="cart__form-button"
+              type="button"
+              value="GET A QUOTE"
+            />
+          </form>
+          <div class="cart__total">
+            <p class="cart__total-sub">
+              SUB TOTAL <span class="cart__total-sub-span">$900</span>
+            </p>
+            <p class="cart__total-grand">
+              GRAND TOTAL <span class="cart__total-grand-span">$900</span>
+            </p>
+            <a href="#" class="cart__order-button">PROCEED TO CHECKOUT</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback">
+      <div class="container feedback-box">
+        <figure class="rewiev">
+          <img class="rewiev_foto" src="img/feedback-foto.png" alt="foto" />
+          <figcaption>
+            “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+            purus condimentum“
+          </figcaption>
+        </figure>
+        <form class="subscribe" action="#">
+          <label for="email" class="subscribe-text">
+            <h3>SUBSCRIBE</h3>
+            <p>FOR OUR NEWLETTER AND PROMOTION</p>
+          </label>
+          <div class="subscribe-flex">
+            <input type="email" id="email" placeholder="Enter Your Email" />
+            <button type="submit" class="subscribe-button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer-box">
+        <p class="copy-text">© 2021 Brand All Rights Reserved.</p>
+        <nav class="social">
+          <a href="#" class="soc-link">
+            <i class="fa-brands fa-facebook-f soc-icon"></i>
+          </a>
+          <a href="#" class="soc-link"
+            ><i class="fa-brands fa-instagram soc-icon"></i>
+          </a>
+          <a href="#" class="soc-link"
+            ><i class="fa-brands fa-pinterest-p soc-icon"></i>
+          </a>
+          <a href="#" class="soc-link">
+            <i class="fa-brands fa-twitter soc-icon"></i
+          ></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
