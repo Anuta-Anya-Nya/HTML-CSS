@@ -83,106 +83,155 @@
     <section class="page-title">
       <div class="page-title__box center">
         <h2 class="page-title__value">SHOPPING CART</h2>
+        <ul class="breadCrumb">
+          <li class="breadCrumb__li">
+            <a href="index.html" class="breadCrumb__link">HOME</a>
+          </li>
+          <li class="breadCrumb__li">
+            <a href="#" class="breadCrumb__link">MEN</a>
+          </li>
+          <li class="breadCrumb__li">
+            <a href="#" class="breadCrumb__link">SHOPPING CART</a>
+          </li>
+        </ul>
       </div>
     </section>
 
     <section class="cart">
-      <div class="cart__box center">
-        <div class="cart__product-box">
-          <div class="cart__product-item">
-            <img
-              src="img/cart-prod1.jpg"
-              alt="product"
-              class="cart__product-img"
-            />
-            <div class="cart__product-about">
-              <h3 class="cart__product-title">MANGO PEOPLE T-SHIRT</h3>
-              <p class="cart__product-feature">
-                Price:<span class="cart__price">$300</span>
+      <div class="cart__flex center">
+        <div class="cart__products">
+          <div class="buy-item">
+            <img src="img/cart-prod2.jpg" alt="product" class="buy-item__img" />
+            <div class="buy-item__about">
+              <a href="pageProd.html" class="buy-item__link"
+                >MANGO PEOPLE<br />T-SHIRT</a
+              >
+              <p class="buy-item__feature">
+                Price:<span class="buy-item__price">$300</span>
               </p>
-              <p class="cart__product-feature">
-                Color:<span class="cart__feature-color">Red</span>
+              <p class="buy-item__feature">
+                Color:<span class="buy-item__color">Red</span>
               </p>
-              <p class="cart__product-feature">
-                Size:<span class="cart__feature-color">XL</span>
+              <p class="buy-item__feature">
+                Size:<span class="buy-item__color">XL</span>
               </p>
-              <p class="cart__product-feature">
-                <label for="quantity">Quantity:</label>
+              <p class="buy-item__feature">
+                <label for="prod-1-quantity">Quantity:</label>
                 <input
+                  class="buy-item__quantity"
                   type="number"
                   name="quantity"
-                  id="quantity"
+                  id="prod-1-quantity"
                   min="1"
                   placeholder="2"
                 />
               </p>
             </div>
+            <div class="buy-item__delete">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467832C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z"
+                  fill="#575757"
+                />
+              </svg>
+            </div>
           </div>
-          <div class="cart__product-item">
-            <img
-              src="img/cart-prod2.jpg"
-              alt="product"
-              class="cart__product-img"
-            />
-            <div class="cart__product-about">
-              <h3 class="cart__product-title">MANGO PEOPLE T-SHIRT</h3>
-              <p class="cart__product-feature">
-                Price:<span class="cart__price">$300</span>
+          <div class="buy-item">
+            <img src="img/cart-prod1.jpg" alt="product" class="buy-item__img" />
+            <div class="buy-item__about">
+              <a href="pageProd.html" class="buy-item__link"
+                >MANGO PEOPLE<br />T-SHIRT</a
+              >
+              <p class="buy-item__feature">
+                Price:<span class="buy-item__price">$300</span>
               </p>
-              <p class="cart__product-feature">
-                Color:<span class="cart__feature-color">Red</span>
+              <p class="buy-item__feature">
+                Color:<span class="buy-item__color">Red</span>
               </p>
-              <p class="cart__product-feature">
-                Size:<span class="cart__feature-color">XL</span>
+              <p class="buy-item__feature">
+                Size:<span class="buy-item__color">XL</span>
               </p>
-              <p class="cart__product-feature">
-                <label for="quantity">Quantity:</label>
+              <p class="buy-item__feature">
+                <label for="prod-2-quantity">Quantity:</label>
                 <input
+                  class="buy-item__quantity"
                   type="number"
                   name="quantity"
-                  id="quantity"
+                  id="prod-2-quantity"
                   min="1"
                   placeholder="2"
                 />
               </p>
+            </div>
+            <div class="buy-item__delete">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467832C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z"
+                  fill="#575757"
+                />
+              </svg>
             </div>
           </div>
           <div class="cart__buttons">
-            <a href="#" class="product-but">CLEAR SHOPPING CART</a>
-            <a href="#" class="product-but">CONTINUE SHOPPING</a>
+            <a href="#" class="button-simple">CLEAR SHOPPING CART</a>
+            <a href="catalog.html" class="button-simple">CONTINUE SHOPPING</a>
           </div>
         </div>
 
         <div class="cart__form">
-          <form action="#" class="cart__order-form">
-            <h3 class="cart__form-title">SHIPPING ADRESS</h3>
+          <form action="#" class="order-form">
+            <h3 class="order-form__title">SHIPPING ADRESS</h3>
             <input
+              class="order-form__input order-form__input-country"
               type="text"
               name="country"
               id="country"
               placeholder="Bangladesh"
             />
-            <input type="text" name="state" id="state" placeholder="State" />
             <input
+              class="order-form__input"
+              type="text"
+              name="state"
+              id="state"
+              placeholder="State"
+            />
+            <input
+              class="order-form__input"
               type="text"
               name="postcode"
               id="postcode"
               placeholder="Postcode / Zip"
             />
-            <input
-              class="cart__form-button"
-              type="button"
-              value="GET A QUOTE"
-            />
+            <button class="button-simple order-form__button" type="button">
+              GET A QUOTE
+            </button>
           </form>
-          <div class="cart__total">
-            <p class="cart__total-sub">
-              SUB TOTAL <span class="cart__total-sub-span">$900</span>
-            </p>
-            <p class="cart__total-grand">
-              GRAND TOTAL <span class="cart__total-grand-span">$900</span>
-            </p>
-            <a href="#" class="cart__order-button">PROCEED TO CHECKOUT</a>
+          <div class="order-sum">
+            <div class="order-sum__text">
+              <p class="order-sum__total-sub">
+                SUB TOTAL <span class="order-sum__total-sub_span">$900</span>
+              </p>
+              <p class="order-sum__total-grand">
+                GRAND TOTAL
+                <span class="order-sum__total-grand_span">$900</span>
+              </p>
+            </div>
+
+            <button class="button-simple order-sum__button" type="button">
+              PROCEED TO CHECKOUT
+            </button>
           </div>
         </div>
       </div>

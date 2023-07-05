@@ -1,0 +1,224 @@
+.cart {
+    margin-top: 96px;
+    margin-bottom: 128px;
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__products {
+        width: 652px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__form {
+        width: 360px;
+    }
+}
+
+.buy-item {
+    display: flex;
+    margin-bottom: 40px;
+    box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13);
+    position: relative;
+
+    &__img {
+        width: auto;
+    }
+
+    &__about {
+        padding: 22px 22px 56px 31px;
+    }
+
+    &__link {
+        text-decoration: none;
+        display: block;
+        color: $colorBackBlock;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 42px;
+        transition: all 0.3s;
+    }
+
+    &__link:hover {
+        color: $colorSelectSite;
+    }
+
+    &__feature {
+        color: #575757;
+        font-size: 22px;
+        line-height: normal;
+        margin-bottom: 6px;
+    }
+
+    &__price {
+        padding-left: 10px;
+        color: #EF5B70;
+    }
+
+    &__color {
+        padding-left: 10px;
+        color: #6F6E6E;
+    }
+
+    &__quantity {
+        margin-left: 24px;
+        box-sizing: border-box;
+        width: 44px;
+        color: #656565;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        vertical-align: middle;
+        padding: 1px 0;
+    }
+
+    &__delete {
+        position: absolute;
+        top: 28px;
+        right: 22px;
+
+        &:hover path {
+            fill: $colorSelectSite;
+        }
+    }
+}
+
+.button-simple {
+    /* display: block; */
+    border: 1px solid #A4A4A4;
+    color: $colorText;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration: none;
+    padding: 17px 40px;
+    background-color: #ffffff;
+    transition: all 0.3s;
+}
+
+.button-simple:hover {
+    background-color: $colorText;
+    color: #ffffff;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 57px;
+
+    &__title {
+        color: $colorBackBlock;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    &__input {
+        padding: 12px 17px 15px 17px;
+        border: 1px solid #A4A4A4;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 21px;
+
+    }
+
+    &__input:last-of-type {
+        margin-bottom: 24px;
+    }
+
+    &__button {
+        box-sizing: border-box;
+        color: #4A4A4A;
+        font-size: 11px;
+        padding: 10px 14px 12px 15px;
+        align-self: flex-start;
+    }
+
+}
+
+.order-sum {
+    padding: 39px 43px 43px;
+    background-color: #F5F3F3;
+    display: flex;
+    flex-direction: column;
+
+    &__text {
+        border-bottom: 1px solid #E2E2E2;
+        margin-bottom: 17px;
+    }
+
+    &__total-sub {
+        color: #4A4A4A;
+        font-size: 11px;
+        line-height: normal;
+        margin-bottom: 12px;
+        text-align: end;
+
+        &_span {
+            margin-left: 17px;
+        }
+    }
+
+    &__total-grand {
+        color: $colorBackBlock;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 21px;
+        text-align: end;
+
+        &_span {
+            color: $colorSelectSite;
+            font-weight: 700;
+            margin-left: 17px;
+        }
+    }
+
+    &__button {
+        color: #FFF;
+        font-size: 16px;
+        background-color: $colorSelectSite;
+        padding: 16px 0;
+        border: 1px solid $colorSelectSite;
+
+        &:hover {
+            background-color: #FFF;
+            color: $colorSelectSite;
+            border: 1px solid $colorSelectSite;
+        }
+    }
+
+
+
+}
+
+.order-form__input-country::placeholder {
+    color: #B1B1B1;
+}
+
+.order-form__input-country::-webkit-input-placeholder {
+    color: #B1B1B1;
+}
+
+.order-form__input-country::-ms-input-placeholder {
+    color: #B1B1B1;
+}
+
+.order-form__input-country::-moz-placeholder {
+    color: #B1B1B1;
+    opacity: 1;
+}
+
+.order-form__input-countryt::-moz-placeholder {
+    color: #B1B1B1;
+    opacity: 1;
+}
