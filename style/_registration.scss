@@ -1,0 +1,158 @@
+.registration {
+    margin-top: 64px;
+    margin-bottom: 96px;
+}
+
+.reg-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg-form {
+    max-width: 359px;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        color: $colorBackBlock;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    &__radio {
+        margin-bottom: 34px;
+        margin-top: 34px;
+
+        & input[type=radio] {
+            display: none;
+        }
+
+        & label {
+            color: $colorText;
+            font-size: 11px;
+            font-weight: 300;
+            line-height: normal;
+            margin-right: 20px;
+            padding-left: 27px;
+            position: relative;
+        }
+
+        & label::before {
+            content: "";
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            background: url(../img/radio.png) 0 0 no-repeat;
+
+        }
+
+        & input[type=radio]:checked+label:before {
+            background: $colorSelectSite;
+            border-radius: 50%;
+        }
+    }
+
+    &__text {
+        color: #B1B1B1;
+        font-size: 13px;
+        line-height: normal;
+        margin-top: 15px;
+        margin-bottom: 39px;
+    }
+
+    &__button {
+        align-self: flex-start;
+        background-color: $colorSelectSite;
+        color: #FFF;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 15px 22px 15px 30px;
+        border: 1px solid $colorSelectSite;
+        transition: all 0.3s;
+
+        &:hover {
+            color: $colorSelectSite;
+            background-color: #FFF;
+        }
+
+        &:hover path {
+            fill: $colorSelectSite;
+        }
+    }
+
+    path {
+        transition: all 0.3s;
+    }
+
+    &__arrow {
+        margin-left: 20px;
+    }
+
+}
+
+#lastName,
+#regPass {
+    margin-bottom: 0;
+}
+
+.reg-content {
+    max-width: 652px;
+    color: colorText;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+
+    &__title {
+        margin-bottom: 22px;
+        font-weight: 300;
+    }
+
+    &__text {
+        margin-bottom: 22px;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__list li {
+        margin-bottom: 17px;
+    }
+
+    &__list li::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 16px;
+        background: url(../img/reg-mark.png) no-repeat center center;
+        margin-right: 23px;
+    }
+}
+
+
+.reg-form__input::placeholder {
+    color: #B1B1B1;
+}
+
+.reg-form__input::-webkit-input-placeholder {
+    color: #B1B1B1;
+}
+
+.reg-form__input::-ms-input-placeholder {
+    color: #B1B1B1;
+}
+
+.reg-form__input::-moz-placeholder {
+    color: #B1B1B1;
+    opacity: 1;
+}
+
+.reg-form__input::-moz-placeholder {
+    color: #B1B1B1;
+    opacity: 1;
+}

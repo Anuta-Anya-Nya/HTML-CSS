@@ -1,5 +1,6 @@
 @import 'vars';
 @import 'cart';
+@import 'registration';
 
 * {
   margin: 0;
@@ -411,7 +412,8 @@ summary::-webkit-details-marker {
 .feedback {
   background: linear-gradient(rgba(244, 244, 244, 0.5),
       rgba(244, 244, 244, 0.5)),
-    url(img/feedback-bg.jpg) no-repeat center center;
+    url(../img/feedback-bg.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .feedback-box {
@@ -1068,7 +1070,7 @@ summary::-webkit-details-marker {
   .accesories {
     height: 111px;
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
-      url(img/offers-acces.png) no-repeat center center;
+      url(../img/offers-acces.png) no-repeat center center;
   }
 
   .accesories>img {
