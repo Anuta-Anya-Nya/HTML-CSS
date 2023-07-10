@@ -1,0 +1,133 @@
+@media (max-width: 767px) {
+    .header__menu {
+        padding: 0 16px;
+    }
+
+    .hidden-item {
+        display: none;
+    }
+
+    .drop-menu-box {
+        right: 0;
+    }
+
+    .banner {
+        min-height: 363px;
+        justify-content: center;
+    }
+
+    .banner__text {
+        min-width: 236px;
+        box-sizing: border-box;
+    }
+
+    .banner__text h1 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .banner__text h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .offers-box {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+
+    .accesories {
+        height: 111px;
+        background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
+            url(../img/offers-acces.png) no-repeat center center;
+    }
+
+    .accesories>img {
+        display: none;
+    }
+
+    .products {
+        margin-bottom: 99px;
+    }
+
+    .products-text {
+        margin-bottom: 65px;
+    }
+
+    .products-box {
+        padding: 0 8px;
+        margin-bottom: 54px;
+    }
+
+    .benefits-box {
+        padding: 48px 13px 81px;
+        gap: 47px;
+    }
+
+    .feedback-box {
+        gap: 59px;
+        padding: 0 15px;
+    }
+
+    .rewiev>figcaption {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .subscribe-text>p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 22px;
+    }
+
+    .footer-box {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 43px 13px 9px;
+        gap: 40px;
+    }
+
+    //catalog 
+    .page-title__box {
+        flex-direction: column;
+        padding: 24px 0 46px;
+    }
+
+    .sort__heading {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .filter {
+        width: auto;
+
+        &[open] {
+            position: absolute;
+            max-width: 360px;
+        }
+
+        &[open] svg {
+            padding-left: 16px;
+        }
+
+        &__heading {
+            display: none;
+        }
+
+        &__summary svg {
+            width: 38px;
+            height: 25px;
+        }
+    }
+
+    .catalog-margin {
+        margin-bottom: 40px;
+    }
+
+    .catalog-margin-paginat {
+        margin-bottom: 63px;
+    }
+
+}
