@@ -8,7 +8,7 @@
     }
 
     &__products {
-        width: 652px;
+        width: 57%;
     }
 
     &__buttons {
@@ -17,8 +17,13 @@
     }
 
     &__form {
-        width: 360px;
+        width: 32%;
     }
+
+}
+
+.item-box .buy-item:last-child {
+    margin-bottom: 72px;
 }
 
 .buy-item {
@@ -28,11 +33,11 @@
     position: relative;
 
     &__img {
-        width: auto;
+        vertical-align: bottom;
     }
 
     &__about {
-        padding: 22px 22px 56px 31px;
+        padding: 22px 22px 0 31px;
     }
 
     &__link {
