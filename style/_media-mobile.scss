@@ -190,7 +190,7 @@
     }
 
     //cart
-    .cart-title {
+    .page-title-mobile {
         padding-top: 50px;
     }
 
@@ -280,5 +280,17 @@
     .order-form {
         margin-bottom: 0;
     }
+
+
+    //registration
+
+
+    .reg-flex {
+        padding: 0 8px;
+        grid-template-columns: minmax(0, 360px);
+        gap: 40px;
+        justify-content: center;
+    }
+
 
 }

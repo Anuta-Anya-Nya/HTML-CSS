@@ -1082,7 +1082,7 @@ summary::-webkit-details-marker {
 }
 
 .reg-form {
-  max-width: 359px;
+  width: 360px;
   display: flex;
   flex-direction: column;
 }
@@ -1161,8 +1161,8 @@ summary::-webkit-details-marker {
 }
 
 .reg-content {
-  max-width: 652px;
-  color: colorText;
+  width: 57%;
+  color: #000;
   font-size: 24px;
   font-weight: 300;
   line-height: normal;
@@ -1326,6 +1326,25 @@ summary::-webkit-details-marker {
   .order-sum {
     margin-top: 38px;
   }
+  .registration {
+    margin-top: 40px;
+  }
+  .reg-form {
+    width: auto;
+  }
+  .reg-flex {
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 22px;
+  }
+  .reg-content {
+    width: auto;
+    font-size: 16px;
+  }
+  .reg-content__title {
+    margin-bottom: 32px;
+  }
 }
 @media (max-width: 767px) {
   .header__menu {
@@ -1473,7 +1492,7 @@ summary::-webkit-details-marker {
   .page-prod {
     margin-bottom: 64px;
   }
-  .cart-title {
+  .page-title-mobile {
     padding-top: 50px;
   }
   .cart {
@@ -1544,5 +1563,11 @@ summary::-webkit-details-marker {
   }
   .order-form {
     margin-bottom: 0;
+  }
+  .reg-flex {
+    padding: 0 8px;
+    grid-template-columns: minmax(0, 360px);
+    gap: 40px;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
