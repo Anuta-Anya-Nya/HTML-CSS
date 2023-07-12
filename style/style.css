@@ -460,8 +460,8 @@ summary::-webkit-details-marker {
 }
 
 .subscribe-flex {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 0.72fr 0.28fr;
 }
 
 #email {
@@ -474,7 +474,6 @@ summary::-webkit-details-marker {
   font-size: 14px;
   line-height: 36px;
   opacity: 0.67;
-  flex-grow: 2;
 }
 
 .subscribe-button {
@@ -488,7 +487,6 @@ summary::-webkit-details-marker {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   padding: 7px;
-  flex-grow: 1;
 }
 
 .footer-box {
@@ -1263,6 +1261,7 @@ summary::-webkit-details-marker {
   .subscribe {
     margin-top: 0;
     margin-bottom: 140px;
+    width: 100%;
   }
   .subscribe-text > p {
     margin-bottom: 27px;
