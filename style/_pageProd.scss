@@ -27,6 +27,11 @@
         color: #636363;
         font-size: 14px;
         font-weight: 300;
+        transition: all 0.3s;
+    }
+
+    &__link:hover {
+        color: $colorSelectSite;
     }
 
     &__li:not(:last-child):after {

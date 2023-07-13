@@ -576,6 +576,10 @@ summary::-webkit-details-marker {
   color: #636363;
   font-size: 14px;
   font-weight: 300;
+  transition: all 0.3s;
+}
+.breadCrumb__link:hover {
+  color: #F16D7F;
 }
 .breadCrumb__li:not(:last-child):after {
   content: "/";
