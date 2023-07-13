@@ -81,13 +81,13 @@
             background-color: #FFF;
         }
 
+        & path {
+            transition: all 0.3s;
+        }
+
         &:hover path {
             fill: $colorSelectSite;
         }
-    }
-
-    path {
-        transition: all 0.3s;
     }
 
     &__arrow {

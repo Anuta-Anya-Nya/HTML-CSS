@@ -90,6 +90,10 @@
         top: 28px;
         right: 22px;
 
+        & path {
+            transition: all 0.3s;
+        }
+
         &:hover path {
             fill: $colorSelectSite;
         }

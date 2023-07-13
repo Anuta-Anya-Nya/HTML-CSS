@@ -58,6 +58,10 @@
         padding: 8px;
     }
 
+    & svg path {
+        transition: all 0.3s;
+    }
+
     & svg:hover path {
         fill: $colorSelectSite;
     }

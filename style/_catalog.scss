@@ -86,6 +86,7 @@
         font-size: 14px;
         line-height: 17px;
         color: #6F6E6E;
+        transition: all 0.3s;
 
         &:hover {
             color: $colorSelectSite;
@@ -163,6 +164,7 @@
         font-size: 16px;
         font-weight: 300;
         line-height: normal;
+        transition: all 0.3s;
     }
 
     .active-link {

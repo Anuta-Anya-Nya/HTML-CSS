@@ -122,6 +122,11 @@ summary::-webkit-details-marker {
     font-size: 14px;
     line-height: 17px;
     color: #6f6e6e;
+    transition: all 0.3s;
+}
+
+.drop-menu-link:hover {
+    color: #f16d7f;
 }
 
 .icon-bag {
@@ -198,6 +203,7 @@ summary::-webkit-details-marker {
 .offer-img {
     filter: brightness(0.4);
     transition: all 0.3s;
+
 }
 
 .offers-link:hover .offer-img {
@@ -365,7 +371,7 @@ summary::-webkit-details-marker {
 }
 
 .benefits,
-.footer {
+.copyright {
     background-color: #222224;
 }
 
@@ -467,7 +473,7 @@ summary::-webkit-details-marker {
 
 .subscribe-flex {
     display: grid;
-    grid-template-columns: 0.72fr 0.28fr;
+    grid-template-columns: minmax(0, 0.72fr) 0.28fr;
 }
 
 #email {
@@ -478,21 +484,29 @@ summary::-webkit-details-marker {
     border-bottom-left-radius: 25px;
     border: none;
     font-size: 14px;
-    line-height: 36px;
+    line-height: 34px;
     opacity: 0.67;
 }
 
 .subscribe-button {
     box-sizing: border-box;
-    background: #f16d7f;
+    background: $colorSelectSite;
     font-size: 14px;
-    line-height: 36px;
+    line-height: 34px;
     text-align: center;
     color: #ffffff;
     border: none;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding: 7px;
+    padding: 7px 0;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.subscribe-button:hover {
+    background: #ffffff;
+    color: $colorSelectSite;
+    border: 1px solid $colorSelectSite;
 }
 
 .footer-box {
