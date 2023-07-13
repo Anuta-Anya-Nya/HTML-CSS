@@ -87,6 +87,7 @@ summary::-webkit-details-marker {
   z-index: 333;
   box-sizing: border-box;
   display: none;
+  transition: all 3s;
 }
 
 .menu-drop:hover .drop-menu-box {

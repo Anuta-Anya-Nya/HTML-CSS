@@ -1,57 +1,57 @@
 @keyframes duck-fly-1 {
   0% {
     left: -100px;
-    top: 74vh;
+    top: 38vh;
   }
   50% {
-    left: 16vw;
-    top: 3vh;
+    left: 26vw;
+    top: 37vh;
   }
   100% {
     left: 100vw;
-    top: 77vh;
+    top: 31vh;
   }
 }
 @keyframes duck-fly-2 {
   0% {
     left: -100px;
-    top: 38vh;
+    top: 13vh;
   }
   50% {
-    left: 51vw;
+    left: 59vw;
     top: 62vh;
   }
   100% {
     left: 100vw;
-    top: 43vh;
+    top: 57vh;
   }
 }
 @keyframes duck-fly-3 {
   0% {
     left: -100px;
-    top: 66vh;
+    top: 2vh;
   }
   50% {
-    left: 24vw;
-    top: 25vh;
+    left: 59vw;
+    top: 11vh;
   }
   100% {
     left: 100vw;
-    top: 23vh;
+    top: 25vh;
   }
 }
 @keyframes duck-fly-4 {
   0% {
     left: -100px;
-    top: 79vh;
+    top: 66vh;
   }
   50% {
-    left: 48vw;
-    top: 24vh;
+    left: 55vw;
+    top: 50vh;
   }
   100% {
     left: 100vw;
-    top: 88vh;
+    top: 50vh;
   }
 }
 body {
